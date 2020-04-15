@@ -10,5 +10,5 @@ REPO=${REPO:-rancher}
 IMAGE_NAME=${IMAGE_NAME:-k3s}
 
 IMAGE=${REPO}/${IMAGE_NAME}:${TAG}
-docker build -t ${IMAGE} -f package/Dockerfile .
+docker build --build-arg http_proxy=$http_proxy -t ${IMAGE} -f package/Dockerfile .
 echo Built ${IMAGE}
