@@ -4,7 +4,7 @@ go 1.12
 
 replace (
 	github.com/Microsoft/hcsshim => github.com/Microsoft/hcsshim v0.8.7-0.20190926181021-82c7525d98c8
-	github.com/canonical/go-dqlite => github.com/canonical/go-dqlite v1.4.1
+	github.com/canonical/go-dqlite => github.com/canonical/go-dqlite v1.5.0
 	github.com/containerd/btrfs => github.com/containerd/btrfs v0.0.0-20181101203652-af5082808c83
 	github.com/containerd/cgroups => github.com/containerd/cgroups v0.0.0-20190717030353-c4b9ac5c7601
 	github.com/containerd/console => github.com/containerd/console v0.0.0-20181022165439-0650fd9eeb50
@@ -65,7 +65,7 @@ require (
 	github.com/bhendo/go-powershell v0.0.0-20190719160123-219e7fb4e41e // indirect
 	github.com/bronze1man/goStrongswanVici v0.0.0-20190828090544-27d02f80ba40 // indirect
 	github.com/buger/jsonparser v0.0.0-20181115193947-bf1c66bbce23 // indirect
-	github.com/canonical/go-dqlite v1.4.1
+	github.com/canonical/go-dqlite v1.5.0
 	github.com/containerd/cgroups v0.0.0-00010101000000-000000000000 // indirect
 	github.com/containerd/containerd v1.3.0-beta.2.0.20190828155532-0293cbd26c69
 	github.com/containerd/continuity v0.0.0-20190827140505-75bee3e2ccb6 // indirect
